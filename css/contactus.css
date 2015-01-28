@@ -122,3 +122,65 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+/**This is just a test, to see if I can fix the nav-bar**/ 
+
+.navbar {
+  color: white;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 35px;
+  margin-top: -9px;
+  margin-left: -45px;
+  margin-right: 10px;
+}
+
+
+.econav {
+  margin-left: -12px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+  font-size: 27px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.econav a {
+  color: #99CC00;
+}
+
+.container {
+  text-align: center;
+}
+
+
+
+.homepage a:hover {
+  color: #99CC00;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 1199px) {
+ .jumbotron h1 {
+  font-size: 56px;
+  margin-bottom: 30px;
+ }
+ 
+@media (max-width: 991px) {
+ .jumbotron h1 {
+  font-size: 44px;
+ }
+ .jumbotron p {
+  padding: 0 10px;
+ 
+   }
+
+@media (max-width: 767px) {
+ .jumbotron h1 {
+  font-size: 24px;
+ }
+
